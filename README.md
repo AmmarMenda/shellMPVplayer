@@ -1,2 +1,3 @@
 This is a very simple bash script which randomly picks a file from a list of files and than plays them through mpv 
-The purpose for this script is not to replace a music player but extend the utility of mpv
+All shell scripts are modules of a music player 
+Will be merged into a  CMD player for MPC=V
