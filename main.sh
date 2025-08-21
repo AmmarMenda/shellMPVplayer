@@ -1,18 +1,23 @@
 #!/bin/bash
 
+figlet "shellMPVplayer"
 while true; do
     echo "1: Shuffle Play"
     echo "2: List Play"
     echo "3: Search"
-    read -p "Enter your choice: " ch 
+    echo "9: Exit"
+    read -p "Enter your choice: " ch
 
-    if [ "$ch" -eq 1 ]; then  
+    if [ "$ch" -eq 1 ]; then
         source /home/ammar/clones/shellMPVplayer/shuffle.sh
-    elif [ "$ch" -eq 2 ]; then 
+    elif [ "$ch" -eq 2 ]; then
         source /home/ammar/clones/shellMPVplayer/listplay.sh
     elif [ "$ch" -eq 3 ]; then
         source /home/ammar/clones/shellMPVplayer/search.sh
+    elif [ "$ch" -eq 9 ]; then
+        break
     else
-        echo "Invalid choice. Please try again."  
+        echo "Invalid choice. Please try again."
     fi
 done  # Fix: Close the `while` loop properly
+exit 0  # Fix: Add an exit command to terminate the script
