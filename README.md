@@ -1,8 +1,8 @@
 # Terminal Music Player
 
-[
-[
-[
+<br>
+<br>
+<br>
 
 A lightweight, terminal-based media player with a curses interface inspired by nmtui design. Browse and play your music collection directly from the command line with an intuitive, keyboard-driven interface.
 
@@ -97,7 +97,10 @@ python3 mpv_tui.py --version
 | `q` `Esc` | Quit application |
 
 ## 🎨 Interface Preview
-
+<br>
+<img width="1366" height="768" alt="2025-08-10-17-1755751647-scrot" src="https://github.com/user-attachments/assets/6a48ce07-7c96-4963-8240-0a4a6eb06aae" />
+<br>
+<img width="1366" height="768" alt="2025-08-10-17-1755751676-scrot" src="https://github.com/user-attachments/assets/52f98956-bac1-40b2-bc1b-9c9c9f199990" />
 
 ### Integration with Shell
 
